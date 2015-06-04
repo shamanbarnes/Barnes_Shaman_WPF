@@ -9,4 +9,4 @@ var question = "What\'s the total age id my kids?\n"; // The question before the
 var answer; // answer for all the age combine for my kids 
 
 answer = firstChild + secondChild + thirdChild;
-console.log(answer);
+console.log(question + answer);
