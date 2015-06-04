@@ -10,4 +10,5 @@ var answer; // answer for all the age combine for my kids
 
 answer = firstChild + secondChild + thirdChild; // calculate total kids age
 console.log(question + answer); // answer output 
-console.log( thirdChild > firstChild); //Assigning a Boolean value
+console.log(thirdChild > firstChild); //Assigning a boolean value
+console.log(secondChild < firstChild); // Assigning a boolean value
