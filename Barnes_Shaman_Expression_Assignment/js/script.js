@@ -27,3 +27,10 @@ yourHeight = Number(prompt("Enter your height in inches:"));
 yourWeight = Number(prompt("Enter your weight:"));
 
 results = yourWeight * 703 / yourHeight / yourHeight;
+
+
+//printing out the results
+console.log(yourName);
+console.log(yourSex);
+console.log(output + " " + result);
+console.log(years);
