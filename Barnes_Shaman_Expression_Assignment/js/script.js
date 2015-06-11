@@ -32,5 +32,5 @@ results = yourWeight * 703 / yourHeight / yourHeight;
 //printing out the results
 console.log(yourName);
 console.log(yourSex);
-console.log(output + " " + result);
+console.log(output + " " + results);
 console.log(years);
