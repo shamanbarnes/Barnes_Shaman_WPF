@@ -25,3 +25,5 @@ yourSex  = prompt("Male or Female?");
 //add casting to the prompts 
 yourHeight = Number(prompt("Enter your height in inches:"));
 yourWeight = Number(prompt("Enter your weight:"));
+
+results = yourWeight * 703 / yourHeight / yourHeight;
