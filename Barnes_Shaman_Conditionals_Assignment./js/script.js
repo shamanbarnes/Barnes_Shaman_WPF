@@ -26,3 +26,8 @@ var results                 = income / payments; // Calculates if the user payme
 var loanAmount              = parseInt(loanAmount); // making sure the user enters a number 
 var numberOfMonths          = parseInt(numberOfMonths); // User should enter a number for months 
 var percentageOfMonthly     = (monthlyPayment / income) * 100; // percentage of your monthly income
+
+console.log("Your original amount is " + loanAmount +"."); // prints out user loan amount 
+console.log("Your full loan amount will be " + fullLoanAmount +"."); // prints out user full loan amount 
+console.log("Your monthly payments will be " + monthlyPayment +"."); // prints out user monthly payments 
+console.log("Percentage of your monthly income is " + percentageOfMonthly + "%."); // prints out the user monthly percentage
