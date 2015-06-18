@@ -31,3 +31,14 @@ console.log("Your original amount is " + loanAmount +"."); // prints out user lo
 console.log("Your full loan amount will be " + fullLoanAmount +"."); // prints out user full loan amount 
 console.log("Your monthly payments will be " + monthlyPayment +"."); // prints out user monthly payments 
 console.log("Percentage of your monthly income is " + percentageOfMonthly + "%."); // prints out the user monthly percentage
+
+
+if (monthlyPayment <= income) // Calculates if monthly payment is less than than income 
+{
+    console.log("Loan granted"); // Prints out if loan is granted 
+}
+else
+{
+    console.log("Loan not granted"); // Prints out if loan insn't granted 
+}
+
