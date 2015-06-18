@@ -22,7 +22,6 @@ var fullLoanAmount  = loanAmount * (1 + interest ); // Calculates the total amou
 var monthlyPayment  = fullLoanAmount / numberOfMonths; // Calculating user monthly payments
 
 var payments 		        = (loanAmount * interest) + loanAmount / numberOfMonths; // Calculates the loan amount 
-var results                 = income / payments; // Calculates if the user payments 
 var loanAmount              = parseInt(loanAmount); // making sure the user enters a number 
 var numberOfMonths          = parseInt(numberOfMonths); // User should enter a number for months 
 var percentageOfMonthly     = (monthlyPayment / income) * 100; // percentage of your monthly income
@@ -33,12 +32,9 @@ console.log("Your monthly payments will be " + monthlyPayment +"."); // prints o
 console.log("Percentage of your monthly income is " + percentageOfMonthly + "%."); // prints out the user monthly percentage
 
 
-if (monthlyPayment <= income) // Calculates if monthly payment is less than than income 
-{
-    console.log("Loan granted"); // Prints out if loan is granted 
-}
-else
-{
-    console.log("Loan not granted"); // Prints out if loan insn't granted 
-}
+console.log(monthlyPayment <= income  ? "Loan Granted" : "Loan not granted"); // Calculates if monthly payment is less than than income 
+ // Prints out if loan is granted 
+ // Prints out if loan insn't granted 
+
+
 
