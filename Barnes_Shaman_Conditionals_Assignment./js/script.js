@@ -19,4 +19,10 @@ if(numberOfMonths <= 0 || isNaN(Number(numberOfMonths)) ); // if user enter inco
 
 var interest 		= 4.5 / 100; //  Fixed interest rate for the loan
 var fullLoanAmount  = loanAmount * (1 + interest ); // Calculates the total amount borrowed with intrest rate
-var monthlyPayment  = fullLoanAmount / numberOfMonths; // Calculating user monthly payments 
+var monthlyPayment  = fullLoanAmount / numberOfMonths; // Calculating user monthly payments
+
+var payments 		        = (loanAmount * interest) + loanAmount / numberOfMonths; // Calculates the loan amount 
+var results                 = income / payments; // Calculates if the user payments 
+var loanAmount              = parseInt(loanAmount); // making sure the user enters a number 
+var numberOfMonths          = parseInt(numberOfMonths); // User should enter a number for months 
+var percentageOfMonthly     = (monthlyPayment / income) * 100; // percentage of your monthly income
