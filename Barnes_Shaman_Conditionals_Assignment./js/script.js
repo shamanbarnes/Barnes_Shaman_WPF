@@ -16,3 +16,7 @@ if(numberOfMonths <= 0 || isNaN(Number(numberOfMonths)) ); // if user enter inco
     var numberOfMonths = prompt("Please enter valid number of months"); // ask user to re-enter correct months 
 }
 
+
+var interest 		= 4.5 / 100; //  Fixed interest rate for the loan
+var fullLoanAmount  = loanAmount * (1 + interest ); // Calculates the total amount borrowed with intrest rate
+var monthlyPayment  = fullLoanAmount / numberOfMonths; // Calculating user monthly payments 
