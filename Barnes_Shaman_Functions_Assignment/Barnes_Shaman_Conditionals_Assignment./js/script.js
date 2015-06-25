@@ -4,5 +4,5 @@
 
 
 
-
+function genRanPowerballNum(min, max, num)
 
