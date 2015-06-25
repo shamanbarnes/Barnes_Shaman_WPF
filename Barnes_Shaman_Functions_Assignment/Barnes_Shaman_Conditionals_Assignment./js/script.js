@@ -21,3 +21,4 @@ function genRanPowerballNum(min, max, num) {
     }
     return powerballArray;
    }
+var numberOfTickets = Number(prompt("Enter the amount of tickets you would like to purchase. "));
