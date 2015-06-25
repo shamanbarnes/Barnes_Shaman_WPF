@@ -16,4 +16,8 @@ function genRanPowerballNum(min, max, num) {
             ranNum = Math.random() * (max - min) + min;
 
         }
+        powerballArray[i] = Math.round(ranNum);
 
+    }
+    return powerballArray;
+   }
