@@ -4,7 +4,12 @@
 
 
 
-function genRanPowerballNum(min, max, num) {
+
+
+var powerballLotteryRandom;   //Variable for lottery numbers 
+var powerballRandom;          //Variable for powerball 
+
+function genRanPowerballNum(min, max, num) {    //This function that generates the min and max numbers 
 
     var powerballArray = [];
 
@@ -29,7 +34,7 @@ for (var i = 0; i < numberOfTickets; i++)
     console.log("Here is your lottery tickets "   + (i+1) + " - " + tickects  +   " good luck! ");
 }
 
-powerballLotteryRandom = genRanPowerballNum(1, 36, 5);
+powerballLotteryRandom = genRanPowerballNum(1, 36, 5);    // 
 
 powerballRandom = genRanPowerballNum(1, 35, 1);
 
