@@ -22,3 +22,9 @@ function genRanPowerballNum(min, max, num) {
     return powerballArray;
    }
 var numberOfTickets = Number(prompt("Enter the amount of tickets you would like to purchase. "));
+
+for (var i = 0; i < numberOfTickets; i++)
+{
+    var tickects = genRanPowerballNum(1, 36, 6);
+    console.log("Here is your lottery tickets "   + (i+1) + " - " + tickects  +   " good luck! ");
+}
