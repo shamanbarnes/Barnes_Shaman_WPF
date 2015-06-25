@@ -28,3 +28,9 @@ for (var i = 0; i < numberOfTickets; i++)
     var tickects = genRanPowerballNum(1, 36, 6);
     console.log("Here is your lottery tickets "   + (i+1) + " - " + tickects  +   " good luck! ");
 }
+
+powerballLotteryRandom = genRanPowerballNum(1, 36, 5);
+
+powerballRandom = genRanPowerballNum(1, 35, 1);
+
+console.log("Your Powerball lottery numbers are " + powerballLotteryRandom + ", and your Powerball number is " + powerballRandom + " good luck! ");
